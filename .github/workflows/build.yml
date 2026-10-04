@@ -14,7 +14,7 @@ jobs:
       - name: Extract Android project
         run: |
           mkdir project
-          unzip -o JAAY_AK_JEND_Android_Project.zip -d project
+          unzip -o *.zip -d project
 
       - name: Setup Java
         uses: actions/setup-java@v4
